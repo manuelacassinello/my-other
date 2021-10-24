@@ -11,7 +11,10 @@ export default function intro() {
         <img src="assets/1.png" alt="k"></img>
       </div>
 
-      <Button className="button" variant="outline-dark">BROWSER</Button>
+      <a href="#testimonials">
+        <Button className="button" variant="outline-dark">BROWSER </Button>
+      </a>
+
 
 
     </div>
