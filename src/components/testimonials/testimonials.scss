@@ -1,61 +1,17 @@
 .testimonials{
-  background-color: #2C2C2C;
-
-  .t1{
-    img{
-    width: 252px;
-    margin-top: -9px;
-    margin-left: 33px;
-    }
-  }
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 
 
-  .wrapper{
-    display: flex;
-    margin-top: -4px;
-
-      .t2{
-        p{
-          color: black;
-          width: 134px;
-          height: 150px;
-          font-size: 13px;
-          text-align: left;
-          background: white;
-          border-radius: 14px;
-          margin-left: 19px;
-          padding: 10px;
-          margin-top: 20px;
-        }
-      }
- }
- .wrapper2 {
-   display: flex;
-   margin-top: -12px;
-
-
-   .t2 {
-     p {
-       color: black;
-       width: 134px;
-       height: 150px;
-       font-size: 13px;
-       text-align: left;
-       background: white;
-       border-radius: 14px;
-       margin-left: 19px;
-       padding: 10px;
-       margin-top: 20px;
-     }
-   }
+ .carousel{
+   width: 325px;
+   border-radius: 30px;
+   margin-top: -39px;
  }
 
- .iconabout {
-   img {
-    width: 17px;
-    margin-left: 15px;
-    margin-top: 13px;
 
-   }
- }
+
 }

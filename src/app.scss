@@ -4,7 +4,7 @@
   height: 100vh;
 
   .sections {
-    width: 364px;
+    width: 100%;
     height: calc(100vh - 70px);
     background-color: white;
     position: relative;
@@ -18,7 +18,7 @@
     }
 
     >* {
-      width: 364px;
+      width: 100vw;
       height: calc(100vh - 70px);
       scroll-snap-align: start;
     }

@@ -17,8 +17,6 @@ function App() {
         <Intro />
         <Testimonials />
         <Community />
-
-
       </div>
     </div>
   );

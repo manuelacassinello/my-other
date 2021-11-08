@@ -1,27 +1,19 @@
 .intro{
-  background-color: #2C2C2C;
-
-
   .text{
-    margin-top: 67px;
-
-    img{
-      width: 327px;
+   img{
+      position: absolute;
+      width: 374px;
+      margin-top: -68px;
     }
-
   }
-
-
-
  .button{
-      margin-top: -38px;
-      margin-left: 102px;
-      border-radius: 32px;
-      width: 118px;
-      height: 33px;
-      background: white;
-      color: black;
-      font-size: 13px;
-
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 128px;
+  border-radius: 32px;
+  width: 133px;
+  height: 43px;
+  color: black;
+  font-size: 15px;
  }
 }
