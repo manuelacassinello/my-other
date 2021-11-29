@@ -1,8 +1,16 @@
 .topbar{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  position: fixed;
   transition: all 1s ease;
+  top:0;
+  z-index: 3;
+
   .right{
     margin-top: 24px;
     margin-left: 326px;
+
     .hamburger{
       width: 32px;
       height: 25px;
@@ -23,9 +31,10 @@
     }
   }
   &.active{
-    background-color: #C4C4C4;
+    background-color: white;
     color:white;
     height: 63px;
+
 
     .hamburger{
       span{

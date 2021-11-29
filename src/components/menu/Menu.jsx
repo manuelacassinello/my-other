@@ -1,11 +1,15 @@
 import "./menu.scss"
 
-export default function Menu() {
+export default function Menu({menuOpen, setMenuOpen}) {
   return(
-    <div className="menu">
+    <div className={"menu "+(menuOpen && "active")}>
       <ul>
-        <li>Log in</li>
+        <div className="login">
+        <li >Log in</li>
+        </div>
+        <div className="signup">
         <li>Sign up</li>
+        </div>
       </ul>
 
     </div>
