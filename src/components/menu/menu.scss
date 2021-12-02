@@ -12,6 +12,16 @@
   justify-content: center;
   transition: all 1s ease;
 
+  .image90{
+     margin-top: -369px;
+    img{
+      width: 322px;
+      margin-left: 79px;
+      margin-top: 93px;
+      }
+    }
+
+
   &.active{
     right: 0;
   }
@@ -23,34 +33,64 @@
     color: white;
 
 
-      .login{
-        background: black;
-        color: white;
-        width: 143px;
+      .home{
+        color: black;
+        width: 223px;
         height: 41px;
-        margin-bottom: 30px ;
+        margin-bottom: 7px;
         align-content: center;
-        border-radius: 21px;
+        /* border-radius: 21px; */
+        font-size: 18px;
         li{
-          text-align: center;
+
           padding-top: 11px;
           font-family: 'NeueHaasUnica';
         }
       }
-      .signup {
-        background: black;
-        color: white;
-        width: 143px;
+      .about {
+        color: black;
+        width: 223px;
         height: 41px;
+        margin-bottom: 7px;
         align-content: center;
-        border-radius: 21px;
+        font-size: 18px;
         li {
-          text-align: center;
-          padding-top:11px;
+          padding-top:-15px;
           font-family: 'NeueHaasUnica';
         }
       }
+      .testimonials{
+           color: black;
+           width: 223px;
+           height: 41px;
+           margin-bottom: 7px;
+           align-content: center;
+           font-size: 18px;
+           margin-top: -10px;
+
+        li {
+         font-family: 'NeueHaasUnica';
+         margin-left: -125px;
+         margin-top: -11px;
+        }
+      }
+      .mystory {
+            color: black;
+            width: 223px;
+            height: 41px;
+            margin-bottom: 7px;
+            align-content: center;
+            font-size: 17px;
+            margin-top: -8px;
+
+        li {
+          padding-top: -15px;
+          font-family: 'NeueHaasUnica';
+        }
+      }
+
     }
+
 
 
 

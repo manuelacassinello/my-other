@@ -5,11 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 export default function intro() {
+
   return (
     <div className="intro" id="intro">
+      <div className="right">
+        <input type="text" placeholder="Search for your other..." />
 
-      <div className="text">
-        <img src="assets/49.png" alt="k"></img>
+      </div>
+      <div className="image99">
+        <img src="assets/0099.png" alt="k"></img>
       </div>
       <a href="#testimonials">
         <Button className="button" variant="outline-dark">BROWSER </Button>

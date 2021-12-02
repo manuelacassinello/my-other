@@ -1,34 +1,48 @@
 .community{
-  background-color: #2C2C2C;
+  .right {
+    margin-top: -5px;
+    margin-left: -34px;
 
-  .t1 {
-    img {
-        width: 276px;
-        margin-top: 6px;
-        margin-left: 24px;
+    input {
+      margin-left: 70px;
+      text-decoration: none;
+      color: black;
+      border: none;
+    }
+
+  }
+
+  .title{
+    h1{
+      margin-left: 39px;
+      margin-top: 21px;
+      font-size: 40px;
+      font-family: 'NeueHaasUnica';
+      font-weight: bold;
+    }
+    h2 {
+     margin-left: 39px;
+     margin-top: -9px;
+     font-size: 40px;
+     font-family: 'NeueHaasUnica';
+     font-weight: bold;
     }
   }
-
-  .profile{
-        margin-top: 24px;
-
-
-   img{
-         width: 300px;
-         margin-left: 15px;
-         margin-top: -2px;
-   }
+  .title2{
+    h1{
+      font-size: 13px;
+      margin-left: 41px;
+      margin-top: 8px;
+      font-family: 'NeueHaasUnica';
+      }
+    }
+  .image88{
+    img{
+      width: 319px;
+      margin-left: 27px;
+      margin-top: 17px;
+    }
   }
-
-  h1{
-      color: white;
-      margin-top: 217px;
-      font-size: 10px;
-      font-weight: 300;
-
-      margin-left: 194px;
-  }
-
 
 
 
