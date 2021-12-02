@@ -3,7 +3,7 @@
   .text1{
     h1{
       margin-left: 29px;
-      margin-top: 21px;
+      margin-top: -1px;
       font-size: 40px;
       font-family: 'NeueHaasUnica';
       font-weight: bold;
@@ -18,7 +18,7 @@
       text-decoration: none;
       color: black;
       border: none;
-      margin-top: 23px;
+      margin-top: 4px;
     }
 
   }
@@ -31,7 +31,13 @@
     }
 
   }
+   .carousel {
+    width: 249px;
+    border-radius: 30px;
+    margin-top: -6px;
+    margin-left: 62px;
 
+   }
 
 
 
