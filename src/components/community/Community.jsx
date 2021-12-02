@@ -4,7 +4,7 @@ export default function Community() {
   return (
     <div className="community" id="community">
       <div className="right">
-        <input type="text" placeholder="Search for a word..." />
+        <input type="text" placeholder="Search for another..." />
       </div>
      <div className="title">
        <h1>We build a</h1>
