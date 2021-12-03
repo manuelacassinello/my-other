@@ -7,17 +7,17 @@ export default function Menu({menuOpen, setMenuOpen}) {
         <img src="assets/888.png" alt="k"></img>
       </div>
       <ul>
-        <div className="home">
-        <li >Home</li>
+        <div className="about">
+         <a href="#intro"><li>Home</li></a>
         </div>
         <div className="about">
-        <li>About</li>
+          <a href="#about"><li>About</li></a>
         </div>
-        <div className="testimonials">
-          <li>Testimonials</li>
+        <div className="about">
+          <a href="#testimonials"><li>Testimonials</li></a>
         </div>
-        <div className="mystory">
-          <li>My Story</li>
+        <div className="about">
+          <a href="#mystory"><li>My Story</li></a>
         </div>
       </ul>
 

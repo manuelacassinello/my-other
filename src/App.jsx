@@ -1,11 +1,14 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
 import Testimonials from "./components/testimonials/Testimonials";
-import About from "./components/about/About";
 import Community from "./components/community/Community";
 import "./app.scss";
 import { useState} from "react";
 import Menu from "./components/menu/Menu";
+import About from "./components/about/About";
+import Mystory from "./components/mystory/Mystory";
+
+
 
 
 
@@ -23,6 +26,7 @@ function App() {
       <div className="sections">
         <Intro />
         <About/>
+        <Mystory />
         <Testimonials />
         <Community />
       </div>
