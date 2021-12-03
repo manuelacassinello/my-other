@@ -3,6 +3,10 @@ import "./topbar.scss"
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
     <div className={"topbar " + (menuOpen && "active" ) }>
+
+      <div className="left">
+        <img src="assets/040.png" alt="k"></img>
+      </div>
       <div className="right">
          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
           <span className="line1"></span>

@@ -6,10 +6,18 @@
   transition: all 1s ease;
   top:0;
   z-index: 3;
+  display: flex;
 
+ .left{
+   img{
+       width: 146px;
+       margin-top: 20px;
+       margin-left: 11px;
+  }
+ }
   .right{
     margin-top: 24px;
-    margin-left: 326px;
+    margin-left: 173px;
 
     .hamburger{
       width: 32px;
